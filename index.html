@@ -6,7 +6,7 @@
   <body>
     <div class="container">
       <h1 class="center blue-text">Cam's Personal Budget</h1>
-        <div id="current_balance" class="green-text center" placeholder="">Where Current Balance will be</div>
+        <input id="current_balance" class="green-text center" placeholder="What is your current balance?"></input>
         <input id="bill_name" placeholder="Please enter your payee"></input>
         <input id="bill_amount" placeholder="Please enter your bill amount"></input>
         <button id="add_bill" class="grey right">Add Bill</button>
@@ -14,18 +14,25 @@
         <tr>
           <th>Payee(Bill)</th>
           <th>Amount</th>
+          <th>Debit</th>
+          <th>Credit</th>
         </tr>
         <tr>
           <td>testy</td>
           <td>$100</td>
+          <td>yes</td>
+          <td>no</td>
         </tr>
         <tr>
           <td>ing</td>
           <td>$80</td>
         </tr>
+        <tr>
+          <td></td>
+        </tr>
       </table>
       </div>
       <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script> 
+      <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html
